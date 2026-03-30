@@ -215,6 +215,12 @@
             "size_chart_page": ""
           }
         },
+        "liquid_XNt9JL": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div style=\"display: flex; align-items: center; gap: 10px; font-family: Arial, sans-serif; font-size: 14px; color: #111;\">\n  <span style=\"position: relative; width: 14px; height: 14px; display: inline-block;\">\n    <span style=\"\n      position: absolute;\n      top: 50%;\n      left: 50%;\n      width: 28px;\n      height: 28px;\n      border: 2px solid #8000FF;\n      border-radius: 50%;\n      transform: translate(-50%, -50%);\n      animation: pulse 1.5s infinite;\n      opacity: 0.6;\n    \"></span>\n    <span style=\"\n      display: block;\n      width: 14px;\n      height: 14px;\n      background-color: #8000FF;\n      border-radius: 50%;\n    \"></span>\n  </span>\n  <span><b>Ryzyko wyczerpania</b> Pośpiesz się!</span>\n</div>\n\n<style>\n@keyframes pulse {\n  0% {\n    transform: translate(-50%, -50%) scale(0.8);\n    opacity: 0.6;\n  }\n  50% {\n    transform: translate(-50%, -50%) scale(1.4);\n    opacity: 0;\n  }\n  100% {\n    transform: translate(-50%, -50%) scale(0.8);\n    opacity: 0.6;\n  }\n}\n</style>"
+          }
+        },
         "quantity-selector": {
           "type": "quantity_selector",
           "settings": {}
@@ -239,6 +245,7 @@
         "separator",
         "description",
         "variant-picker",
+        "liquid_XNt9JL",
         "quantity-selector",
         "buy-buttons"
       ],
