@@ -151,6 +151,21 @@
         "drag_cursor_color": "#000000"
       }
     },
+    "image_with_text_overlay_DqEWDd": {
+      "type": "image-with-text-overlay",
+      "name": "Image with text overlay",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
     "hot-spots": {
       "type": "hot-spots",
       "blocks": {
@@ -414,6 +429,7 @@
     "slideshow",
     "image-link-blocks",
     "before-after-image",
+    "image_with_text_overlay_DqEWDd",
     "hot-spots",
     "multiple-images-with-text",
     "featured-product",
