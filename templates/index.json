@@ -406,6 +406,8 @@
         "subheading": "",
         "title": "Before/after",
         "content": "<p>Showcase your product benefit by using before/after image comparison.</p>",
+        "before_image": "shopify://shop_images/IMG_0961.png",
+        "after_image": "shopify://shop_images/IMG_0962.png",
         "expand_image": false,
         "text_position": "center",
         "before_after_text_position": "bottom",
