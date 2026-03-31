@@ -332,12 +332,36 @@
             "title": "Czy to jest dla mnie?",
             "content": "<p><br/>Tak. został stworzony tak, aby pasować do każdego uśmiechu, niezależnie od punktu wyjścia.<br/><br/>Jeśli szukasz prostego, łagodnego i łatwego do włączenia do codziennej rutyny rozwiązania, SmileLab jest dla Ciebie.<br/><br/></p>"
           }
+        },
+        "item_76iL8L": {
+          "type": "item",
+          "settings": {
+            "title": "Czy naprawdę zobaczę różnicę?”",
+            "content": "<p><br/>Większość użytkowników zauważa stopniową i naturalną zmianę już po pierwszych użyciach.<br/><br/></p>"
+          }
+        },
+        "item_hYXKqP": {
+          "type": "item",
+          "settings": {
+            "title": "Question",
+            "content": "<p>Write content to answer to common questions your customers may have about your products, shipping policies..</p>"
+          }
+        },
+        "item_QWFjQQ": {
+          "type": "item",
+          "settings": {
+            "title": "Question",
+            "content": "<p>Write content to answer to common questions your customers may have about your products, shipping policies..</p>"
+          }
         }
       },
       "block_order": [
         "166442457738b23caf-0",
         "166442457738b23caf-1",
-        "166442457738b23caf-2"
+        "166442457738b23caf-2",
+        "item_76iL8L",
+        "item_hYXKqP",
+        "item_QWFjQQ"
       ],
       "settings": {
         "full_width": false,
