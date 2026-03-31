@@ -350,8 +350,8 @@
         "item_QWFjQQ": {
           "type": "item",
           "settings": {
-            "title": "Question",
-            "content": "<p>Write content to answer to common questions your customers may have about your products, shipping policies..</p>"
+            "title": "A co jeśli nie będę zadowolony?",
+            "content": "<p>Możesz zamawiać bez obaw.</p><p>Jeśli WhiteSmile Ci nie odpowiada, nasza obsługa klienta jest do Twojej dyspozycji, aby znaleźć rozwiązanie.</p><p>Twoje zadowolenie jest dla nas priorytetem.</p>"
           }
         }
       },
