@@ -183,6 +183,12 @@
     "featured-product": {
       "type": "featured-product",
       "blocks": {
+        "liquid_DCEaFY": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<!DOCTYPE html>\n<html lang=\"fr\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Afficher Image</title>\n</head>\n<body>\n    <h1>\n</h1>\n    <img src=\"https://cdn.shopify.com/s/files/1/0961/2833/6258/files/IMG_1020.png?v=1774949518\" alt=\"Image Shopify\" style=\"max-width:100%; height:auto;\">\n</body>\n</html>"
+          }
+        },
         "title": {
           "type": "title",
           "settings": {
@@ -251,6 +257,7 @@
         }
       },
       "block_order": [
+        "liquid_DCEaFY",
         "title",
         "badges",
         "price",
