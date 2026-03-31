@@ -254,6 +254,12 @@
             "payment_button_background": "",
             "payment_button_text_color": ""
           }
+        },
+        "liquid_9CqtbU": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<!DOCTYPE html>\n<html lang=\"fr\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Afficher Image 2</title>\n</head>\n<body>\n    <h1></h1>\n    <img src=\"https://cdn.shopify.com/s/files/1/0961/2833/6258/files/IMG_1022.png?v=1774949981\" alt=\"Image Shopify 2\" style=\"max-width:100%; height:auto;\">\n</body>\n</html>"
+          }
         }
       },
       "block_order": [
@@ -267,7 +273,8 @@
         "variant-picker",
         "liquid_XNt9JL",
         "quantity-selector",
-        "buy-buttons"
+        "buy-buttons",
+        "liquid_9CqtbU"
       ],
       "settings": {
         "full_width": false,
