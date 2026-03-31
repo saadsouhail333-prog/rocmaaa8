@@ -18,7 +18,7 @@
           "type": "newsletter",
           "settings": {
             "image_width": 150,
-            "heading_size": "h3",
+            "heading_size": "h5",
             "title": "Zapisz się, aby otrzymywać nowe historie i spersonalizowane oferty",
             "content": ""
           }
