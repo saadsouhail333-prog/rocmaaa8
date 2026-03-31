@@ -280,6 +280,87 @@
         "input_text_color": ""
       }
     },
+    "accordion_content_DjV84T": {
+      "type": "accordion-content",
+      "blocks": {
+        "item_WYYf4f": {
+          "type": "item",
+          "settings": {
+            "icon": "none",
+            "icon_width": 20,
+            "title": "Opis",
+            "content": "<p>Odkryj fioletowe paski wybielające do zębów. Rewolucyjne rozwiązanie w dziedzinie natychmiastowego wybielania, które zapewnia widoczne efekty już po ich usunięciu.</p><p>Rewolucyjna technologia korekcji koloru w odcieniu fioletu neutralizuje żółte tony przy kontakcie, zapewniając natychmiast jaśniejszy uśmiech. Nasza formuła PAP bez nadtlenku nadal działa, usuwając głębokie przebarwienia spowodowane kawą, winem, papierosami i innymi czynnikami.</p>",
+            "page": ""
+          }
+        },
+        "item_LkrqND": {
+          "type": "item",
+          "settings": {
+            "icon": "none",
+            "icon_width": 20,
+            "title": "Składniki",
+            "content": "<p>Starannie dobrana formuła dla bezpiecznego i skutecznego wybielania:</p><p>Kompleks wybielający PAP – usuwa przebarwienia delikatnie, bez nadwrażliwości i bez uszkadzania szkliwa.<br/><br/>Technologia fioletowej korekcji koloru – natychmiast neutralizuje żółte odcienie, zapewniając efekt natychmiastowego rozjaśnienia.<br/><br/>Olej kokosowy – pielęgnuje dziąsła, wspomagając proces wybielania.<br/><br/>Mentol – zapewnia długotrwałe uczucie świeżości i czysty oddech.</p>",
+            "page": ""
+          }
+        },
+        "item_yek7Na": {
+          "type": "item",
+          "settings": {
+            "icon": "none",
+            "icon_width": 20,
+            "title": "Jak używać",
+            "content": "<ol><li><strong>Nałóż</strong><br/><br/>Umieść pasek na czystych i suchych zębach.<br/></li><li><br/><strong>Pozostaw na 30 minut</strong><br/><br/>Pasek działa, podczas gdy Ty kontynuujesz swój dzień.<br/></li><li><br/><strong>Usuń i opłucz</strong><br/><br/>Zdejmij pasek i w razie potrzeby przepłucz usta.<br/></li><li><br/><strong>Olśniewający uśmiech</strong><br/><br/>Powtarzaj codziennie przez 7 dni lub aż do uzyskania pożądanego efektu.<br/></li></ol>",
+            "page": ""
+          }
+        },
+        "item_3gnLaD": {
+          "type": "item",
+          "settings": {
+            "icon": "none",
+            "icon_width": 20,
+            "title": "Korzyści",
+            "content": "<p>Widocznie bielszy uśmiech już po zdjęciu pasków. Nie trzeba czekać kilku dni, aby zobaczyć różnicę.</p><p><strong>Fioletowa technologia korekcji koloru</strong><br/><br/>Natychmiast neutralizuje żółte odcienie przy kontakcie z zębami, zapewniając efekt rozjaśnienia widoczny już po pierwszym użyciu.</p><p><strong>Stopniowe i trwałe wybielanie</strong><br/><br/>Do 7 odcieni bielsze zęby przy regularnym stosowaniu, bez nadwrażliwości.</p><p><strong>Natychmiastowy zastrzyk pewności siebie</strong><br/><br/>Idealne przed zdjęciem, spotkaniem lub w każdej chwili, gdy chcesz mieć olśniewający uśmiech.</p><p><strong>Bezpieczne dla szkliwa</strong><br/><br/>Bezpieczna formuła, bez agresywnego nadtlenku, zaprojektowana, aby chronić zdrowie Twoich zębów.</p><p><strong>Proste i wygodne</strong><br/><br/>Wystarczy jedna aplikacja dziennie. Bez żelu i bez nakładek: szybko, czysto i skutecznie.</p>",
+            "page": ""
+          }
+        },
+        "item_Fm7jiz": {
+          "type": "item",
+          "settings": {
+            "icon": "none",
+            "icon_width": 20,
+            "title": "Dostawa i zwroty",
+            "content": "<p>Realizacja zamówienia zajmuje 1–2 dni robocze przed wysyłką.</p><p>Oferujemy 14-dniową gwarancję satysfakcji.</p><p>Jeśli z jakiegokolwiek powodu nie będziesz zadowolony, zwrócimy Ci pełną kwotę, bez podawania przyczyny.</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_WYYf4f",
+        "item_LkrqND",
+        "item_yek7Na",
+        "item_3gnLaD",
+        "item_Fm7jiz"
+      ],
+      "name": "Accordion content",
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "",
+        "accordion_text_color": ""
+      }
+    },
     "custom_html_GHDCcA": {
       "type": "custom-html",
       "name": "Custom HTML",
@@ -393,6 +474,7 @@
     "image_with_text_overlay_DqEWDd",
     "custom_liquid_7fpxcA",
     "featured-product",
+    "accordion_content_DjV84T",
     "custom_html_GHDCcA",
     "image_with_text_overlay_YFqYAR",
     "faq"
