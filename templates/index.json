@@ -372,9 +372,9 @@
             "round_avatar": true,
             "show_rating": true,
             "rating": 4,
-            "author": "John S.",
-            "title": "Testimonial 1",
-            "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.</p>"
+            "author": "Anna Kowalska",
+            "title": "",
+            "content": "<p><strong><br/>Myślałam, że to kolejna obietnica marketingowa. W końcu okazało się, że to proste, szybkie i przede wszystkim skuteczne. Bardzo miłe zaskoczenie.</strong><br/></p>"
           }
         },
         "testimonial_F6xxhd": {
@@ -382,10 +382,10 @@
           "settings": {
             "round_avatar": true,
             "show_rating": true,
-            "rating": 5,
-            "author": "Mary U.",
-            "title": "Testimonial 2",
-            "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.</p>"
+            "rating": 4,
+            "author": "Marta Nowak",
+            "title": "",
+            "content": "<p><br/><strong>Bałam się o wrażliwość, bo miałam już złe doświadczenia z innymi produktami. Tutaj – zero bólu, zero mrowienia. Tylko jaśniejszy uśmiech.<br/></strong></p>"
           }
         },
         "testimonial_4rYLXT": {
@@ -394,24 +394,60 @@
             "round_avatar": true,
             "show_rating": true,
             "rating": 4,
-            "author": "Joshua A.",
-            "title": "Testimonial 3",
-            "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.</p>"
+            "author": "Piotr Zieliński",
+            "title": "",
+            "content": "<p><br/><strong>Nawet myjąc zęby rano i wieczorem, moje zęby pozostawały lekko żółte. Myślałam, że to kwestia genetyki. Po raz pierwszy widzę prawdziwą poprawę.</strong></p>"
+          }
+        },
+        "testimonial_yMUrxK": {
+          "type": "testimonial",
+          "settings": {
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 4,
+            "author": "Łukasz Kowalczyk",
+            "title": "",
+            "content": "<p><br/><strong>Próbowałem węgla, kilku wybielających past do zębów, innych marek… bez prawdziwego efektu. Tutaj, już przy pierwszym użyciu zobaczyłem prawdziwą różnicę. Od razu mnie to przekonało.</strong></p>"
+          }
+        },
+        "testimonial_UdtTXm": {
+          "type": "testimonial",
+          "settings": {
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 5,
+            "author": "Tomasz Lewandowski",
+            "title": "",
+            "content": "<p><strong><br/>Przed zakupem pokazałem skład mojemu stomatologowi. Potwierdził, że składniki są w porządku i nie są agresywne. To mnie uspokoiło. A po przetestowaniu mogę powiedzieć, że naprawdę działa bardzo dobrze.</strong></p>"
+          }
+        },
+        "testimonial_KyTjr7": {
+          "type": "testimonial",
+          "settings": {
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 5,
+            "author": "Marcin Jabłoński",
+            "title": "",
+            "content": "<p><strong><br/>Na zdjęciach zawsze uważałem, żeby za bardzo się nie uśmiechać. Od kiedy używam tych pasków, już się nad tym nie zastanawiam. Uśmiecham się naturalnie i to widać.</strong></p>"
           }
         }
       },
       "block_order": [
         "testimonial_LURG3W",
         "testimonial_F6xxhd",
-        "testimonial_4rYLXT"
+        "testimonial_4rYLXT",
+        "testimonial_yMUrxK",
+        "testimonial_UdtTXm",
+        "testimonial_KyTjr7"
       ],
       "name": "Testimonials",
       "settings": {
         "full_width": true,
         "stack_testimonials": false,
         "subheading": "",
-        "title": "Testimonials",
-        "content": "",
+        "title": "",
+        "content": "<h3><strong><br/>On mówi o tym najlepiej.</strong><br/><br/></h3>",
         "link_url": "",
         "link_text": "",
         "background": "",
