@@ -121,14 +121,5 @@ src="https://www.facebook.com/tr?id=936353612593397&ev=PageView&noscript=1"
         {%- sections 'footer-group' -%}
       {%- endif -%}
     </main>
- <script>
-document.addEventListener('DOMContentLoaded', function() {
-  // Intercepte l'ajout au panier via AJAX
-  document.addEventListener('ajaxCart.afterAdd', function(event) {
-    // Redirige directement vers le checkout
-    window.location.href = '/checkout';
-  });
-});
-</script>
   </body>
 </html>
