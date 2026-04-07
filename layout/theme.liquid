@@ -121,5 +121,15 @@ src="https://www.facebook.com/tr?id=936353612593397&ev=PageView&noscript=1"
         {%- sections 'footer-group' -%}
       {%- endif -%}
     </main>
+ <script>
+document.addEventListener('click', function(e){
+  const btn = e.target.closest('button[name="add"], [data-add-to-cart]');
+  if(btn){
+    setTimeout(function(){
+      window.location.href = '/checkout';
+    }, 600);
+  }
+});
+</script>
   </body>
 </html>
