@@ -35,6 +35,7 @@
     "text_font": "din_next_n4",
     "currency_code_enabled": true,
     "heading_apparition": "split_fade",
+    "show_quick_buy": false,
     "show_discount": false,
     "discount_mode": "saving",
     "product_color_display": "swatch",
