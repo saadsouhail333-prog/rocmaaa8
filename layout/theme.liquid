@@ -122,13 +122,12 @@ src="https://www.facebook.com/tr?id=936353612593397&ev=PageView&noscript=1"
       {%- endif -%}
     </main>
  <script>
-document.addEventListener('click', function(e){
-  const btn = e.target.closest('button[name="add"], [data-add-to-cart]');
-  if(btn){
-    setTimeout(function(){
-      window.location.href = '/checkout';
-    }, 600);
-  }
+document.addEventListener('DOMContentLoaded', function() {
+  // Intercepte l'ajout au panier via AJAX
+  document.addEventListener('ajaxCart.afterAdd', function(event) {
+    // Redirige directement vers le checkout
+    window.location.href = '/checkout';
+  });
 });
 </script>
   </body>
