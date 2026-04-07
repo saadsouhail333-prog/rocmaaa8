@@ -209,6 +209,18 @@
             "manual_deal_block_id": ""
           }
         },
+        "button_eLDPx6": {
+          "type": "button",
+          "settings": {
+            "link": "",
+            "text": "Button",
+            "size": "xl",
+            "style": "fill",
+            "stretch": true,
+            "background": "",
+            "text_color": ""
+          }
+        },
         "buy-buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -232,6 +244,7 @@
         "title",
         "liquid_XNt9JL",
         "kaching_bundles_app_block_jRKAYd",
+        "button_eLDPx6",
         "buy-buttons",
         "liquid_9CqtbU"
       ],
