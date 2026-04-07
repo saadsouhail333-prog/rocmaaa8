@@ -121,5 +121,36 @@ src="https://www.facebook.com/tr?id=936353612593397&ev=PageView&noscript=1"
         {%- sections 'footer-group' -%}
       {%- endif -%}
     </main>
+ <script>
+// Surveille les changements dans le panier
+(function() {
+  let lastCartCount = null;
+
+  function checkCart() {
+    fetch('/cart.js')
+      .then(response => response.json())
+      .then(cart => {
+        if(lastCartCount !== null && cart.item_count > lastCartCount) {
+          // Un nouvel article a été ajouté
+          window.location.href = '/checkout';
+        }
+        lastCartCount = cart.item_count;
+      });
+  }
+
+  // Vérifie toutes les 500ms après un clic sur un bouton Ajouter au panier
+  document.addEventListener('click', function(e) {
+    const btn = e.target.closest('button, [data-add-to-cart]');
+    if(btn){
+      const interval = setInterval(function() {
+        checkCart();
+      }, 500);
+
+      // Stop après 2s pour éviter boucle infinie
+      setTimeout(() => clearInterval(interval), 2000);
+    }
+  });
+})();
+</script>
   </body>
 </html>
